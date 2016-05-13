@@ -1,0 +1,18 @@
+section .esquerda{
+	
+	/*border: 1px ridge black;*/
+	padding: 1%;
+	margin: 2%;
+
+	border-width: 5px;
+
+	border-style: outset;
+	background-color: #FFF;
+	
+}
+
+section .direita{
+	
+	margin: 2%;
+	color: white;
+}
