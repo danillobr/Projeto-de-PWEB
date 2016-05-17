@@ -4,7 +4,7 @@ section .esquerda{
 	/*border: 1px ridge black;*/
 	padding: 1%;
 	margin-left: 2%;
-	margin-top: 1%;
+	margin-top: 6%;
 	margin-right: 1%;
 
 
@@ -20,7 +20,7 @@ section .esquerda{
 section .direita{
 	
 	padding: 1%;
-	margin-top: 1%;
+	margin-top: 6%;
 	margin-right: 2%;
 
 	border-width: 3px;
@@ -28,6 +28,12 @@ section .direita{
 	border-style: outset;
 
 	background-color: #FFF;
+}
+
+footer{
+	color: #FFF;
+	text-align: center;
+	font-size: 3%;
 }
 
 iframe{
@@ -40,5 +46,20 @@ h3{
 	border-radius: 10px;
 	text-align: center;
 	color: #FFF;
-
 }
+
+h6 div{
+	text-align: justify;
+}
+
+body{
+	background-color: #3d3d3d;
+}
+
+img{
+	width: 60%;
+}
+
+/*.navbar-afasta-section{
+	margin-bottom: 50px;
+}*/
