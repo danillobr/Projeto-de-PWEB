@@ -1,0 +1,4 @@
+Atualizar; git add *
+git commit -m "comentario"
+
+Para enviar ao servidor; push origin master
