@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>teste</title>
+</head>
+<body>
+	
+<div id="div"></div>
+
+<script>
+		onload =function(){
+			for(var i=0;i<json().length;i++){
+				document.getElementById("div").innerHTML+='<iframe width="560" height="315" src="'+json()[i].link+'" frameborder="0" allowfullscreen></iframe>';
+			}
+		}
+</script>
+
+<script src="json.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</body>
+</html>

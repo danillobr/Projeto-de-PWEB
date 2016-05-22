@@ -39,39 +39,52 @@
 
 			<div class="w3-col m8 direita" align="center">
 
-				<h4 style="background-color: #3d3d3d">
-					Assistindo: Naruto Shippuuden – Episódio 01, 02 - Volta a Casa, A Akatsuki Se Move.
+				<h4 style="background-color: #3d3d3d" id="titulo">
 				</h4>
 
-				<iframe src="http://1temp908.cam.fairytaill.com/Naruto%20Shippuden/Naruto%20Shippuden%2001%2002.MP4" frameborder="0" allowfullscreen class="Ep w3-col m12" align="middle"></iframe>	
+				<div id="video">
+
+					
+				</div>
 
 				<br>
 
 				<!--<div align="center">
 					<iframe src="http://1temp908.cam.fairytaill.com/Naruto%20Shippuden/Naruto%20Shippuden%2001%2002.MP4" frameborder="0" class="Ep" align="middle">
-				</div>-->
+					</div>-->
 
 			</div>
 
-		</section>
+	</section>
 
 
-		<footer> 
+	<footer> 
 
-			<div class="navbar navbar-inverse navbar-fixed-bottom">
-				<div class="navbar-inner">
-					Assista Animes Online, em seu celular, tablet, smartphone e iphone. 
-					<p>Todos os direitos reservados - Grupo de WEB. Desenvolvido por: Danillo Rodrigues.</p>
-				</div>
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
+			<div class="navbar-inner">
+				Assista Animes Online, em seu celular, tablet, smartphone e iphone. 
+				<p>Todos os direitos reservados - Grupo de WEB. Desenvolvido por: Danillo Rodrigues.</p>
 			</div>
+		</div>
 
-		</footer>
+	</footer>
 
+	
+	<div id="div"></div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+	
+		onload=function(){
+			document.getElementById("video").innerHTML='<iframe src="'+json()[_get("id")].linkVideo+'"frameborder="0" allowfullscreen class="Ep w3-col m12" align="middle"></iframe>';
+			document.getElementById("titulo").innerHTML=json()[_get("id")].titulo;
+		}
+	</script>
 
-		<script src="js/bootstrap.min.js"></script>
+	
+  	<script src="js/json.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
-	</body>
-	</html>
+		</body>
+		</html>
 

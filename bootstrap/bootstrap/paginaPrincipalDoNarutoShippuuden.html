@@ -65,78 +65,11 @@
               <th>Dublado</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td> 
-                <a href="narutoShippuudenEp01_02.html" style="text-decoration:none">  
-                  Episódio 01, 02 - Volta a Casa, A Akatsuki Se Move
-                </a> 
-              </td>
-              <td>Sim</td>
-              <td>Não</td>
-            </tr>
-
-            <tr>
-              <td> 
-                <a href="#" style="text-decoration:none">  
-                  Episódio 03 - Os Resultados do Treino
-                </a> 
-              </td>
-              <td>Sim</td>
-              <td>Não</td>
-            </tr>
-            <tr>
-              <td> 
-                <a href="#" style="text-decoration:none"> 
-                Episódio 04 - O Jinchuuriki da Areia 
-                </a> 
-              </td>
-              <td>Sim</td>
-              <td>Não</td>
-            </tr>
-
-            <tr>
-              <td> 
-                <a href="#" style="text-decoration:none">  
-                  Episódio 05 - Como Kazekage…!
-                </a> 
-              </td>
-              <td>Sim</td>
-              <td>Não</td>
-            </tr>
-
-            <tr>
-              <td> 
-                <a href="#" style="text-decoration:none"> 
-                  Episódio 06, 07 - A Arte é uma Explosão!; Corra, Kankuro, Corra! 
-                </a> 
-              </td>
-              <td>Sim</td>
-              <td>Não</td>
-            </tr>
-
-            <tr>
-              <td> 
-                <a href="#" style="text-decoration:none"> 
-                Episódio 08, 09 - Time Kakashi se prepara!; As Lágrimas de um Jinchuriki! 
-                </a> 
-              </td>
-              <td>Sim</td>
-              <td>Não</td>
-            </tr>
-
-            <tr>
-              <td> 
-                <a href="#" style="text-decoration:none"> 
-                Episódio 10 - Técnica de Selamento – Os Nove Selos do Dragão Fantasma!
- 
-                </a> 
-              </td>
-              <td>Sim</td>
-              <td>Não</td>
-            </tr>
+          <tbody id="tabela">
+           
 
           </tbody>
+          
         </table>
         
 
@@ -151,7 +84,6 @@
   </section>
 
   
-  
 
   <footer> 
 
@@ -165,8 +97,24 @@
   </footer>
 
 
+
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
   <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/json.js" type="text/javascript" charset="utf-8" async defer></script>
+
+  <script>
+    onload=function(){
+      for(var i=0;i<json().length;i++){
+        document.getElementById("tabela").innerHTML+='<tr><td><a href="narutoShippuudenEps.html?'+json()[i].link+'" style="text-decoration:none">'+json()[i].titulo+'</a></td><td>Sim</td><td>Não</td></tr>';
+      }
+    }
+  </script>
+
+
+
 </body>
 </html>

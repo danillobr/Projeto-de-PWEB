@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>Assistindo Naruto!</title>
+
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel ="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<a class="brand" href="paginaInicial.html">AnimesTudo</a>
+			<ul class="nav">
+				<li><a href="paginaInicial.html">Início</a></li>
+				<li class="active"><a href="listaAnimes.html">Lista de Animes</a></li>
+				<li><a href="#">Link</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<section>
+
+		<div class="w3-fila">
+			<div class="w3-col m3 esquerda">
+				<h4> Facebook </h4>
+				<iframe src="http://www.uol.com.br/"> </iframe>
+			</div>
+
+
+			<div class="w3-col m8 direita" align="center">
+
+				<h4 style="background-color: #3d3d3d" id="titulo">
+				</h4>
+
+				<div id="video">
+
+					
+				</div>
+
+				<br>
+
+				<!--<div align="center">
+					<iframe src="http://1temp908.cam.fairytaill.com/Naruto%20Shippuden/Naruto%20Shippuden%2001%2002.MP4" frameborder="0" class="Ep" align="middle">
+					</div>-->
+
+			</div>
+
+	</section>
+
+
+	<footer> 
+
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
+			<div class="navbar-inner">
+				Assista Animes Online, em seu celular, tablet, smartphone e iphone. 
+				<p>Todos os direitos reservados - Grupo de WEB. Desenvolvido por: Danillo Rodrigues.</p>
+			</div>
+		</div>
+
+	</footer>
+
+	
+	<div id="div"></div>
+
+	<script>
+	
+		onload=function(){
+			document.getElementById("video").innerHTML='<iframe src="'+json()[_get("id")].linkVideo+'"frameborder="0" allowfullscreen class="Ep w3-col m12" align="middle"></iframe>';
+			document.getElementById("titulo").innerHTML=json()[_get("id")].titulo;
+		}
+	</script>
+
+	
+  	<script src="js/json.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+		</body>
+		</html>
+
