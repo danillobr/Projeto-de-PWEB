@@ -1,4 +1,4 @@
-function json(){
+function jsonNarutoShippuuden(){
 	return [{linkVideo:"http://1temp908.cam.fairytaill.com/Naruto%20Shippuden/Naruto%20Shippuden%2001%2002.MP4",
 			titulo:"Episódio 01, 02 - Volta a Casa, A Akatsuki Se Move",
 			link:0},

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Naruto Shippuuden</title>
+  <title>Dragon Ball Super</title>
 
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,13 +45,13 @@
         <h4 style="background-color: #3d3d3d">
           Assistir - Naruto Shippuuden 
         </h4>
-        <img src="img/narutoShippuuden - Episodios.jpeg" id="imagemBordaArredondada"
-        class="w3-col m4 direita">
+        <img src="img/dragonBallSuper - Episodios.jpeg" id="imagemBordaArredondada"
+        class="w3-col m3 direita">
 
         <h6>
           Genero: Ação , Artes Marciais , Comédia , Shounen , Superpoder.
           <hr>
-          Autor: Masashi Kishimoto.
+          Autor: Akira Toriyama.
           <hr>
           Status do Anime: Em lançamento...
           <hr>
@@ -104,12 +104,12 @@
 
   <script src="js/bootstrap.min.js"></script>
 
-  <script src="js/jsonNarutoShippuuden.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="js/jsonDragonBallSuper.js" type="text/javascript" charset="utf-8" async defer></script>
 
   <script>
     onload=function(){
-      for(var i=0;i<jsonNarutoShippuuden().length;i++){
-        document.getElementById("tabela").innerHTML+='<tr><td><a href="narutoShippuudenEps.html?'+jsonNarutoShippuuden()[i].link+'" style="text-decoration:none">'+jsonNarutoShippuuden()[i].titulo+'</a></td><td>Sim</td><td>Não</td></tr>';
+      for(var i=0;i<jsonDragonBallSuper().length;i++){
+        document.getElementById("tabela").innerHTML+='<tr><td><a href="dragonBallSuperEps.html?'+jsonDragonBallSuper()[i].link+'" style="text-decoration:none">'+jsonDragonBallSuper()[i].titulo+'</a></td><td>Sim</td><td>Não</td></tr>';
       }
     }
   </script>

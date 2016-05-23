@@ -54,6 +54,8 @@
 					</div>-->
 
 			</div>
+			
+		</div>	
 
 	</section>
 
@@ -75,13 +77,13 @@
 	<script>
 	
 		onload=function(){
-			document.getElementById("video").innerHTML='<iframe src="'+json()[_get("id")].linkVideo+'"frameborder="0" allowfullscreen class="Ep w3-col m12" align="middle"></iframe>';
-			document.getElementById("titulo").innerHTML=json()[_get("id")].titulo;
+			document.getElementById("video").innerHTML='<iframe src="'+jsonNarutoShippuuden()[_get("id")].linkVideo+'"frameborder="0" allowfullscreen class="Ep w3-col m12" align="middle"></iframe>';
+			document.getElementById("titulo").innerHTML=jsonNarutoShippuuden()[_get("id")].titulo;
 		}
 	</script>
 
 	
-  	<script src="js/json.js" type="text/javascript" charset="utf-8" async defer></script>
+  	<script src="js/jsonNarutoShippuuden.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 
