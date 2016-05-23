@@ -62,6 +62,7 @@ body{
 
 #imagemBordaArredondada{
 	border-radius: 5px;
+	padding: 1px;
 }
 
 .Ep{
@@ -70,6 +71,11 @@ body{
 
 }
 
+.inforVideo{
+	padding: 5px;
+	font-size: 13px;
+
+}
 
 /*.navbar-afasta-section{
 	margin-bottom: 50px;
