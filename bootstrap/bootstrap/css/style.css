@@ -77,6 +77,15 @@ body{
 
 }
 
+.aliamento{
+	border-width: 3px;
+	border-radius: 10px;
+	border-style: outset;
+	background-color: #FFF;
+	
+	margin-bottom: 6%;
+}
+
 /*.navbar-afasta-section{
 	margin-bottom: 50px;
 }*/
