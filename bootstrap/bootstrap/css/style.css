@@ -15,7 +15,7 @@ section .esquerda{
 }
 
 section .direita{
-	
+
 	margin-right: 2%;
 
 	border-width: 3px;
@@ -23,19 +23,24 @@ section .direita{
 	border-style: outset;
 	background-color: #FFF;
 
-	margin-bottom: 6%;
+	margin-bottom: 3%;
 }
 
 section{
+	
 	padding: 1%;
-	margin-top: 6%;
+	margin-top: 3%;
+
 }
 
 footer{
 	/*margin-top: 6%;*/
+	/*position: absolute;*/
 	color: #FFF;
 	text-align: center;
-	font-size: 13px;
+	font-size: 11px;
+	height: 100%;
+	position-bottom: 0px;
 }
 
 iframe{
@@ -80,12 +85,26 @@ body{
 .aliamento{
 	border-width: 3px;
 	border-radius: 10px;
+	border-color: #FFF;
 	border-style: outset;
 	background-color: #FFF;
-	
-	margin-bottom: 6%;
+	color: red;
 }
 
+
+.infor{
+	text-align: center;
+	color: #FFF;
+	background-color: #3d3d3d;
+	border-radius: 8px;
+
+	padding: 5px;
+	margin-top: 1%;
+}
+
+.infor2{
+	font-size: 11px;
+}
 /*.navbar-afasta-section{
 	margin-bottom: 50px;
 }*/
