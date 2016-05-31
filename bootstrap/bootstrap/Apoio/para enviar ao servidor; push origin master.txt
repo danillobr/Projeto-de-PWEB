@@ -1,9 +1,0 @@
-Atualizar; git add *
-git commit -m "comentario"
-
-Para enviar ao servidor: git push origin master
-
-git status
-
-
-Puxar um commit do servidor: git pull origin master

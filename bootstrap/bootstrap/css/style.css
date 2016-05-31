@@ -80,7 +80,7 @@ body{
 
 .inforVideo{
 	padding: 5px;
-	font-size: 13px;
+	font-size: 12px;
 
 }
 
@@ -108,6 +108,11 @@ body{
 	font-size: 11px;
 }
 
+#facebook { 
+	display:block; 
+	margin: 0 auto;
+	padding-right: 4%; 
+}
 /*.navbar-afasta-section{
 	margin-bottom: 50px;
 }*/
